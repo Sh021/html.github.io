@@ -1,0 +1,262 @@
+body {
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+
+    color: white;
+}
+
+* {
+    font-family: 'Murecho', sans-serif;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: white;
+}
+
+#navbar {
+
+
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    height: 100px;
+
+}
+
+#carouselExampleControl {
+
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 700px;
+}
+
+.movies {
+    height: 800px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:400px) {
+    body {
+        padding: 0;
+    }
+
+    #carouselExampleControls {
+
+        padding: 10px;
+        width: 100%;
+
+    }
+
+    #screen {
+        width: 200px;
+    }
+
+
+    #navbar {
+        width: 100%;
+
+    }
+
+    .movies {
+        height: 800px;
+        width: auto;
+    }
+
+}
+
+@media(max-width:370px) {
+    #ali {
+        padding: 20px;
+    }
+}
+
+#youhave {
+
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+.btn {
+
+    background-color: violet;
+    transition: hover 1000ms;
+    height: 50px;
+    margin: 5px;
+    width: 50px;
+
+}
+
+.btn:hover {
+    background-color: greenyellow;
+
+}
+
+#screen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.676);
+    height: 250px;
+    width: 100%;
+    box-shadow: 10px 20px 30px white;
+    transition: background-color 1200ms;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+#screen:hover {
+    background-color: white;
+    color: black;
+}
+
+#seats {
+    margin-top: 50px;
+
+
+
+
+}
+
+.booked {
+    height: 50px;
+
+    width: 50px;
+    background-color: grey;
+}
+
+#youhave {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#sinfo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.space {
+    padding: 10px;
+}
+
+#indicator {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#vacant,
+#booked,
+#selected {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 17px;
+
+
+}
+
+#vacant {
+    background-color: violet;
+    border-style: none;
+
+}
+
+#booked {
+    background-color: grey;
+    border-style: none;
+}
+
+#selected {
+    background-color: blue;
+    border-style: none;
+}
+
+#check {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(157, 157, 255);
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+
+
+}
+
+#select {
+    font-size: 25px;
+
+
+}
+
+#sle {
+    text-align: center;
+}
+
+#ali {
+    display: block;
+    padding: 40px;
+
+}
+
+#time {
+    padding: 10px;
+    font-size: 30px;
+
+
+}
+
+#times {
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#seatNumber,
+#amount,
+#mymovie {
+    padding: 10px;
+}
+
+#mymovie {
+    font-size: 30px;
+    background-color: black;
+    width: 100%;
+}
+
+#pay {
+    font-size: 30px;
+    width: 100%;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+}
+
+#pno {
+    text-align: center;
+
+}
+
+#mymovie,
+#pay {
+    background-color: rgb(58, 58, 58);
+}
+
+#navbar {
+
+    color: whitesmoke;
+    background-color: black;
+}

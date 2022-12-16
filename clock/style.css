@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: white;
+}
+.btn{
+    margin: auto;
+    padding: 1%;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background-color: black;
+    color: white;
+    box-shadow: 8px 8px 8px rgb(211,142,39);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.clk{
+    font-family: sans-serif;
+    padding: 30px;
+    color: cornflowerblue;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    font-size: 80px;
+    white-space: nowrap;
+}
